@@ -1,0 +1,33 @@
+.productList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.productListImg {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .product-row{
+      display: flex;
+      padding: 1rem;
+      width: 80%;
+      height: 20vh;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 2px solid gray;
+  }
+
+  .productListDelete{
+    color: red;
+    cursor: pointer;
+}
+
+.product-desc p{
+    padding: 1rem;
+}
